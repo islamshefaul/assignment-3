@@ -1,3 +1,8 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
 .first-section{
     border: 1px solid gray;
     width: 1200px;
@@ -27,6 +32,11 @@
     height: 600px;
 }
 /* main section code start */
+
+.container{
+    display: flex;
+    margin: 50px 0;
+}
 .main-div{
     display: grid;
     border: 2px solid rebeccapurple;
@@ -46,4 +56,53 @@
     background-color: crimson;
     color: aliceblue;
     border-radius: 10px;
+}
+/* div state */
+
+.div-player{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 15px;
+    column-gap: 15px;
+    
+}
+.plyer{
+    width: 200px;
+    height: 250px;
+    padding: 50px 50px;
+    background-color: rgba(220, 220, 220, 0.158);
+    border-radius: 20px;
+}
+.plyer img{
+    width: 200px;
+    height: 150px;
+    
+}
+/* footer code start */
+.main-footer{
+    border: 2px solid royalblue;
+    background-color: black;
+    height: 300px;
+}
+.main-footer h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.main-footer hr{
+    width: 800px;
+    height: 0;
+    margin-top: 10px;
+    color: gray;
+}
+.footer-itams{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.footer-itams li{
+    padding: 0 30px;
+}
+.footer-div{
+    margin-top: 100px;
 }
